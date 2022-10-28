@@ -96,7 +96,7 @@ class DetailsScreen extends StatelessWidget {
                               speed: const Duration(milliseconds: 100),
                             ),
                           ],
-                          totalRepeatCount: 3,
+                          totalRepeatCount: 10,
                           pause: const Duration(milliseconds: 500),
                           displayFullTextOnTap: true,
                           stopPauseOnTap: true,
