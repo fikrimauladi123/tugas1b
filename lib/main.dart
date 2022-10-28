@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tugas 1 Viqri',
+      title: 'Tugas Viqri',
       theme: ThemeData(
         scaffoldBackgroundColor: bgColor,
         primarySwatch: Colors.blue,

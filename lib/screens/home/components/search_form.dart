@@ -20,7 +20,7 @@ class SearchForm extends StatelessWidget {
         onSaved: (value) {},
         decoration: InputDecoration(
           filled: true,
-          fillColor: Color.fromARGB(255, 154, 209, 153),
+          fillColor: Color.fromARGB(255, 142, 11, 59),
           hintText: "Cari Makanan...",
           border: outlineInputBorder,
           enabledBorder: outlineInputBorder,

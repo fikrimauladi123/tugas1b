@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:stylish/constants.dart';
@@ -21,8 +22,6 @@ class HomeScreen extends StatelessWidget {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SvgPicture.asset("assets/icons/Location.svg"),
-            const SizedBox(width: defaultPadding / 2),
             Text(
               "Bogor Ciapus",
               style: Theme.of(context).textTheme.bodyText1,
